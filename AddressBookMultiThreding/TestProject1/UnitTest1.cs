@@ -12,7 +12,7 @@ namespace ContactDetailsTest
         public void TestMethod1()
         {
             List<Contact> AddresDetails = new List<Contact>();
-            AddresDetails.Add(new Contact(Firstname: "Rajesh", Lastname: "Verma", Address: "Bemetara", City: "Durg", State: "Chhattisgarh", Zip: 490020, Phone: "7898625487", Email: "sahu@12gmail.com"));
+            AddresDetails.Add(new Contact(Firstname: "Sun", Lastname: "Sharma", Address: "AtalColony", City: "Gwa", State: "MP", Zip: 250020, Phone: "758925487", Email: "sun@12gmail.com"));
 
             AddingOperations emppayroll = new AddingOperations();
             DateTime StartDateTime = DateTime.Now;
